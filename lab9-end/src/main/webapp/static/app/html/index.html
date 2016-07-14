@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html ng-app="wafepaApp">
+<head>
+<title>WAFEPA</title>
+
+<script src="static/assets/js/angular.js"></script>
+<script src="static/assets/js/angular-route.js"></script>
+<link rel="stylesheet" href="static/assets/css/bootstrap.css" />
+
+<script src="static/app/js/main.js"></script>
+<link rel="stylesheet" href="static/app/css/main.css" />
+
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/#/">Home</a>
+				<a class="navbar-brand" href="/#/activities">Activities</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron text-center">
+      <div class="container">
+        <h1>WAFEPA</h1>
+        <p>Web Application for Evidenting Physical Activities</p>
+      </div>
+    </div>
+
+	<div class="container" ng-view></div>
+	
+	<hr>
+    <footer>
+      <p>&copy; 2016 WAFEPA, Inc.</p>
+    </footer>
+
+</body>
+</html>
